@@ -1,0 +1,20 @@
+.intro__quote{
+font-size: 24px;
+font-weight: 400;
+line-height: 34px;
+text-align: left;
+width: 70%;
+margin: 40px 0 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .intro__quote {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 540px) {
+    .intro__quote {
+      margin: 40px auto 0;
+      width: 100%;
+    }
+  }

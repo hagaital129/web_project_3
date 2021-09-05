@@ -1,0 +1,20 @@
+.lead__image{
+width: 100%;
+margin: 64px auto 0;
+background-color: #000;
+mix-blend-mode: luminosity;
+}
+
+ 
+@media screen and (max-width: 860px){
+    .lead__image {
+        min-width: 100%;
+        margin: 50px auto 88px;
+     }
+ }
+ 
+@media screen and (max-width: 540px){
+    .lead__image {
+        margin: 50px auto 64px;
+     }
+ }

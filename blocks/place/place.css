@@ -1,0 +1,30 @@
+.place {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas:
+        "title artist"
+        "img-btn text-area";
+    grid-gap: 48px 40px;
+    margin: 0 auto 80px;
+}
+
+.place:last-child {
+    margin-bottom: 0;
+  }
+
+@media screen and (max-width: 970px) {
+    .place {
+      grid-column-gap: 28px;
+    }
+  }
+  
+@media screen and (max-width: 540px) {
+    .place {
+      margin: 0 0 48px;
+      display: flex;
+      flex-direction: column;
+      grid-gap: 0;
+    }
+  }

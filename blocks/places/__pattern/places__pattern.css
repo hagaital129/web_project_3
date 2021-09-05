@@ -1,0 +1,12 @@
+.places__pattern{
+    width: 80%;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 320px) {
+    .places__list {
+      max-width: 100%;
+    }
+  }

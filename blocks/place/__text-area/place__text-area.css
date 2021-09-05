@@ -1,0 +1,10 @@
+.place__text-area{
+    grid-area: text-area;
+}
+
+@media screen and (max-width: 768px) {
+    .place__text-area {
+      max-width: 100%;
+      margin: 32px auto 0;
+    }
+  }
