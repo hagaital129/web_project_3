@@ -1,0 +1,20 @@
+.place__button {
+    grid-area: btn;
+    background-color: #0278fe;
+    width: 248px;
+    height: 48px;
+    text-align: center;
+    border-radius: 4px;
+    
+  }
+  
+  .place__button:hover {
+    background-color: #0063d2;
+  }
+  
+  @media screen and (max-width: 540px) {
+    .place__button {
+      width: 288px;
+      margin: 30px auto 0;
+    }
+  }

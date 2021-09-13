@@ -4,17 +4,17 @@ width: 70%;
 font-size: 24px;
 font-weight: 400;
 line-height: 34px;
+margin: 0 0 32px;
 }
 
 @media screen and (max-width: 768px) {
-    .intro__quote-author {
+    .intro__author {
       width: 100%;
     }
   }
   
   @media screen and (max-width: 498px) {
-    .intro__quote-author {
-      max-width: 100%;
+    .intro__author {
       margin: 10px auto 0;
     }
   }

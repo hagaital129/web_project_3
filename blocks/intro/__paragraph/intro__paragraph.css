@@ -7,14 +7,13 @@ margin: 0;
 }
 
 @media screen and (max-width: 768px) {
-    .intro__text {
+    .intro__paragraph {
       max-width: 100%;
     }
   }
   
   @media screen and (max-width: 498px) {
-    .intro__text {
-      max-width: 100%;
-      margin: 40px auto 0;
+    .intro__paragraph {
+      margin: 40px 0 0;
     }
   }

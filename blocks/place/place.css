@@ -5,9 +5,10 @@
     grid-template-rows: repeat(2, auto);
     grid-template-areas:
         "title artist"
-        "img-btn text-area";
+        "img text-area"
+        "btn text-area";
     grid-gap: 48px 40px;
-    margin: 0 auto 80px;
+    margin: 0 0 80px;
 }
 
 .place:last-child {
@@ -17,6 +18,7 @@
 @media screen and (max-width: 970px) {
     .place {
       grid-column-gap: 28px;
+      margin: 0 auto 73px;
     }
   }
   
