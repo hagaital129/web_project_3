@@ -15,5 +15,5 @@ This is a project about exploring the crew homelands as part of the Yandex Pract
 * [Link to the project on Figma](https://www.figma.com/file/AtbNbstbxWPcMqvF061V0R/Sprint-3%3A-From-Portland-to-Portland-%7C-desktop-%2B-mobile?node-id=0%3A1)
 
 **Final result**
-
-Will be displayed after reviewer approval.
+Url link:
+https://hagaital129.github.io/web_project_3/index.html
