@@ -4,7 +4,7 @@ font-weight: 400;
 line-height: 15px;
 margin: 0;
 color: #AAAAAA;
-text-transform: capitalize;
+text-transform: uppercase;
 letter-spacing: 0.2em;
 
 }
@@ -12,6 +12,5 @@ letter-spacing: 0.2em;
 @media screen and (max-width: 320px) {
     .place__artist-title{
       line-height: 100%;
-      margin-bottom: 12px;
     }
   }

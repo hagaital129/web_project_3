@@ -1,0 +1,16 @@
+.cover__info{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+@media screen and (max-width: 510px) {
+    .cover__info {
+      gap: 16px;
+    }
+  }
