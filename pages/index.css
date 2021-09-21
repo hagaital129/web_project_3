@@ -27,7 +27,6 @@
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/place/__text-area/place__text-area.css);
 @import url(../blocks/place/__button/place__button.css);
-@import url(../blocks/place/__button-nft/place__button-nft.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__background-effect/cover__background-effect.css);
 @import url(../blocks/cover/__title/cover__title.css);
@@ -36,5 +35,3 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/cover/__info/cover__info.css);
-
-

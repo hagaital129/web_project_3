@@ -7,7 +7,7 @@
 }
 
 .place__paragraph:last-child {
-    padding-bottom: 0;
+    margin-bottom: 0;
   }
   
   @media screen and (max-width: 860px) {
@@ -21,7 +21,7 @@
   @media screen and (max-width: 540px) {
     .place__paragraph {
       max-width: 100%;
-      margin: 32px auto 0;
+      margin: 32px 16px 0;
       padding: 0;
     }
   }

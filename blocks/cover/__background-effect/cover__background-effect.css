@@ -1,24 +1,27 @@
 .cover__background-effect{
     grid-column: 1 / 4;
     grid-row: 1 /4;
-    width: 100%;
+    width: 1184px;
     min-height: 740px;
     padding: 0;
     background-image: url(../../../images/footer_image.png);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 48px;
     opacity: 0.7;
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 1279px) {
   .cover__background-effect {
-    margin: 0 auto 88px;
-
+    background-size: cover;
+    margin: 0 auto;
+    width: 768px;
+    min-height: 746px;
   }
 }
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 767px) {
   .cover__background-effect {
-    width: 320px;
+    width: 100%;
     min-height: 254px;
-    margin: 64px 0;
   }
 }
