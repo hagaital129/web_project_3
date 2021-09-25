@@ -15,7 +15,7 @@
   .cover__background-effect {
     background-size: cover;
     margin: 0 auto;
-    width: 768px;
+    width: 100%;
     min-height: 746px;
   }
 }
@@ -23,5 +23,6 @@
   .cover__background-effect {
     width: 100%;
     min-height: 254px;
+    
   }
 }

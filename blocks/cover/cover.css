@@ -4,6 +4,8 @@
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
+    max-height: 740px;
+    height: calc(100vw / 1.6);
 }
 
 .cover:hover .cover__background-effect {
@@ -15,7 +17,7 @@
   margin: 88px auto;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 650px) {
   .cover{
     margin: 64px auto;
   }

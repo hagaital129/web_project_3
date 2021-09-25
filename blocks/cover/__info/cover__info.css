@@ -10,8 +10,9 @@
     margin: 0 auto;
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 650px){
     .cover__info{
         margin: 46px 16px 45px;
+        gap: 16px;
     }
 }
