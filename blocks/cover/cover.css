@@ -5,6 +5,7 @@
     grid-template-columns: auto;
     grid-template-rows: auto;
     max-height: 740px;
+    min-height: 254px;
     height: calc(100vw / 1.6);
 }
 
