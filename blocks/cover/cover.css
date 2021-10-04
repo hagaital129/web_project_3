@@ -1,12 +1,12 @@
-.cover{
-    margin: 92px auto;
-    width: 100%;
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    max-height: 740px;
-    min-height: 254px;
-    height: calc(100vw / 1.6);
+.cover {
+  margin: 92px auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  max-height: 740px;
+
+  height: calc(100vw / 1.6);
 }
 
 .cover:hover .cover__background-effect {
@@ -14,13 +14,14 @@
 }
 
 @media screen and (max-width: 1279px) {
-  .cover{
-  margin: 88px auto;
+  .cover {
+    margin: 88px auto;
+    min-height: 768px;
   }
 }
 @media screen and (max-width: 650px) {
-  .cover{
+  .cover {
     margin: 64px auto;
+    min-height: 254px;
   }
 }
-
